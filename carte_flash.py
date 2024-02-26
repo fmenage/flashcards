@@ -243,14 +243,14 @@ class FlashcardsApp:
         for card in self.flashcards.finished_cards:
             df.loc[card.ID,"Difficulté"] = card.difficulty
             
-        df.to_csv(file_path_csv, index=False)
+        df.to_csv(file_path_csv, index=False, sep=";")
 
 
             
 def read_flashcards_from_csv(file_path_csv, taille_jeu):
     flashcards = Flashcards()
 
-    df = pd.read_csv(file_path_csv)
+    df = pd.read_csv(file_path_csv, sep=";")
     
     for index, row in df.iterrows():
         flashcards.add_card(index, row["Pile"], row["Face"], row["Difficulté"])
@@ -317,7 +317,7 @@ def merge_two_csv(filepath_1, filepath_2):
     df_tot.to_csv(filepath_1, index=False)
     
 def main():
-    file_path_csv = "dico_allemand.csv"
+    file_path_csv = "dico/dico_allemand.csv"
     nb_cartes = 20
     flashcards, df = read_flashcards_from_csv(file_path_csv, nb_cartes)
 
