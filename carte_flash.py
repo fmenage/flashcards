@@ -20,6 +20,7 @@ class Flashcard:
         self.answer = answer
         self.difficulty = difficulty
         self.first_time = True
+        self.is_swapped = False
 
     def set_difficulty(self, difficulty):
         self.difficulty = difficulty
@@ -33,12 +34,16 @@ class Flashcard:
             self.difficulty = self.difficulty-1
             
     def swap_sides(self):
-        self.question, self.answer = self.answer, self.question
+        if(self.is_swapped):
+            self.is_swapped = False
+        else:
+            self.is_swapped = True
 
 class Flashcards:
     def __init__(self):
         self.cards = []
         self.finished_cards = []
+        self.is_swapped = False
 
     def add_card(self, ID, question, answer, difficulty):
         card = Flashcard(ID, question, answer, difficulty)
@@ -149,7 +154,7 @@ class FlashcardsApp:
         self.faux_button = tk.Button(button_frame, text="Faux", command=self.on_faux_click, font=("Helvetica", 14), highlightbackground="red", highlightcolor="red")
         self.faux_button.pack(side=tk.LEFT, padx=10)
 
-        self.swap_button = tk.Button(master, text="Inverser Question/Définition", command=self.swap_sides_all, font=("Helvetica", 14))
+        self.swap_button = tk.Button(master, text="Inverser Question/Définition", command=self.flashcards.swap_all_sides, font=("Helvetica", 14))
         self.swap_button.pack(pady=20)
 
         self.score_label = tk.Label(master, text="", font=("Helvetica", 12), fg="gray")
@@ -174,7 +179,7 @@ class FlashcardsApp:
             return None
         
         if self.current_card:
-            if(self.is_swapped):
+            if(self.current_card.is_swapped):
                 self.label.config(text=self.current_card.question)
             else:
                 self.label.config(text=self.current_card.answer)
@@ -212,13 +217,10 @@ class FlashcardsApp:
 
     def show_answer(self):
         if self.current_card:
-            if(self.is_swapped):
+            if(self.current_card.is_swapped):
                 self.response_label.config(text=self.current_card.answer)
             else:
                 self.response_label.config(text=self.current_card.question)
-
-    def swap_sides_all(self):
-        self.flashcards.is_swapped = ~self.flashcards.is_swapped & 1
 
     def update_timer(self):
         elapsed_time = int(time.time() - self.start_time)
@@ -316,11 +318,12 @@ def merge_two_csv(filepath_1, filepath_2):
     df_tot.drop_duplicates(subset=['Pile'], keep = "first")
     df_tot.to_csv(filepath_1, index=False)
     
-def main():
-    file_path_csv = "dico/dico_allemand.csv"
-    nb_cartes = 20
-    flashcards, df = read_flashcards_from_csv(file_path_csv, nb_cartes)
+def main(file_path_csv, swap=0, nb_cartes=20):
 
+    flashcards, df = read_flashcards_from_csv(file_path_csv, nb_cartes)
+    if(swap):
+        flashcards.swap_all_sides()
+        
     if not flashcards.cards:
         print("Aucune flashcard disponible. Vérifiez le contenu du fichier.")
         return
@@ -331,4 +334,12 @@ def main():
     root.mainloop()
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description='Jeu de flashcards')
+    parser.add_argument('--fp', metavar='', required=True,
+                        help='path to dico csv')
+    parser.add_argument('--swap', default = 0, type=int, help="swap ou pas les questions")
+    parser.add_argument('--nb_cartes', default=20, type=int, help="nb de cartes")
+    args = parser.parse_args()
+    
+    main(args.fp, swap=args.swap, nb_cartes=args.nb_cartes)
