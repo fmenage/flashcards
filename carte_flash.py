@@ -124,7 +124,6 @@ class Flashcards:
         
 class FlashcardsApp:
     def __init__(self, master, flashcards, df, file_path_save):
-        
         self.data = df
         self.file_path_save = file_path_save
         self.start_time = time.time()
@@ -133,38 +132,46 @@ class FlashcardsApp:
         self.current_card = None
         self.is_swapped = 0
         
-        self.label = tk.Label(master, text="", font=("Helvetica", 16))
-        self.label.pack(pady=20)
+        # Agrandir la fenêtre principale
+        self.master.geometry("900x700")
 
-        self.answer_entry = tk.Entry(master, font=("Helvetica", 14))
-        self.answer_entry.pack(pady=10)
+        # Style général plus grand
+        big_font = ("Helvetica", 24)
+        medium_font = ("Helvetica", 20)
+        small_font = ("Helvetica", 18)
 
-        self.show_answer_button = tk.Button(master, text="Afficher la réponse", command=self.show_answer, font=("Helvetica", 14))
-        self.show_answer_button.pack(pady=10)
+        self.label = tk.Label(master, text="", font=big_font)
+        self.label.pack(pady=30)
 
-        self.response_label = tk.Label(master, text="", font=("Helvetica", 14), fg="blue")
-        self.response_label.pack(pady=10)
+        self.answer_entry = tk.Entry(master, font=medium_font, width=30)
+        self.answer_entry.pack(pady=15, ipady=10)
+
+        self.show_answer_button = tk.Button(master, text="Afficher la réponse", command=self.show_answer, font=medium_font)
+        self.show_answer_button.pack(pady=15, ipadx=20, ipady=10)
+
+        self.response_label = tk.Label(master, text="", font=medium_font, fg="blue")
+        self.response_label.pack(pady=15)
 
         button_frame = tk.Frame(master)
-        button_frame.pack(pady=10)
+        button_frame.pack(pady=15)
 
-        self.correct_button = tk.Button(button_frame, text="Correct", command=self.on_correct_click, font=("Helvetica", 14), highlightbackground="green", highlightcolor="green")
-        self.correct_button.pack(side=tk.LEFT, padx=10)
+        self.correct_button = tk.Button(button_frame, text="✔ Correct", command=self.on_correct_click, font=medium_font, bg="lightgreen", width=10)
+        self.correct_button.pack(side=tk.LEFT, padx=20, ipadx=10, ipady=10)
 
-        self.faux_button = tk.Button(button_frame, text="Faux", command=self.on_faux_click, font=("Helvetica", 14), highlightbackground="red", highlightcolor="red")
-        self.faux_button.pack(side=tk.LEFT, padx=10)
+        self.faux_button = tk.Button(button_frame, text="✘ Faux", command=self.on_faux_click, font=medium_font, bg="lightcoral", width=10)
+        self.faux_button.pack(side=tk.LEFT, padx=20, ipadx=10, ipady=10)
 
-        self.swap_button = tk.Button(master, text="Inverser Question/Définition", command=self.flashcards.swap_all_sides, font=("Helvetica", 14))
-        self.swap_button.pack(pady=20)
+        self.swap_button = tk.Button(master, text="Inverser Question/Définition", command=self.flashcards.swap_all_sides, font=medium_font)
+        self.swap_button.pack(pady=30, ipadx=20, ipady=10)
 
-        self.score_label = tk.Label(master, text="", font=("Helvetica", 12), fg="gray")
-        self.score_label.pack(pady=10)
+        self.score_label = tk.Label(master, text="", font=small_font, fg="gray")
+        self.score_label.pack(pady=15)
         self.score = 0
         self.nb_questions = 0
         self.update_score()
 
-        self.timer_label = tk.Label(master, text="", font=("Helvetica", 12), fg="gray")
-        self.timer_label.pack(pady=10)
+        self.timer_label = tk.Label(master, text="", font=small_font, fg="gray")
+        self.timer_label.pack(pady=15)
         self.update_timer()
         
         self.load_next_card()
