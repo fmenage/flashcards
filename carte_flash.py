@@ -5,7 +5,7 @@ Created on Mon Jan  8 21:20:57 2024
 
 @author: fmenage
 """
-
+import pdb
 import random
 import tkinter as tk
 import time
@@ -16,6 +16,7 @@ import socket
 import pyttsx3
 import platform
 from gtts import gTTS
+import threading
 
 def is_connected():
     """Vérifie si l'ordinateur est connecté à Internet."""
@@ -45,8 +46,8 @@ def speak(text, lang="fr"):
         
     #Sinon on passe par un moteur interne pyttsx3
     else:
+        print("pyttsx3")
         engine = pyttsx3.init()
-
         # Liste les voix disponibles
         voices = engine.getProperty('voices')
         
@@ -60,9 +61,9 @@ def speak(text, lang="fr"):
         # Si hors ligne, utiliser pyttsx3 pour la lecture locale
         engine.setProperty('rate', 150)  # Ajuste la vitesse si nécessaire
         engine.setProperty('volume', 1)  # Volume max
+        print("say")
         engine.say(text)
-        engine.runAndWait()
-        
+
 class Flashcard:
     def __init__(self, ID, question, answer, difficulty):
         self.ID = ID
@@ -131,6 +132,11 @@ class Flashcards:
         N1_voulu = int(prop_medium*N)
         N2_voulu = int(prop_hard*N)
         
+        #Quand la somme ne fait pas le nombre total de cartes voulu
+        #on comble le manque avec des cartes faciles pour qu'il y ait bien N cartes tirées au total
+        if(N0_voulu + N1_voulu + N2_voulu < N):
+            N0_voulu += (N - (N0_voulu + N1_voulu + N2_voulu))
+
         cards_difficulte_0 = [card for card in self.cards if card.difficulty==0]
         cards_difficulte_1 = [card for card in self.cards if card.difficulty==1]
         cards_difficulte_2 = [card for card in self.cards if card.difficulty==2]
@@ -152,6 +158,7 @@ class Flashcards:
         N1_dispo = len(cards_difficulte_1)
         N2_dispo = len(cards_difficulte_2)
         
+        
         if(N2_voulu>N2_dispo):
             delta = N2_voulu-N2_dispo
             N1_voulu = N1_voulu + delta
@@ -166,7 +173,7 @@ class Flashcards:
         cards_difficulte_0 = random.sample(cards_difficulte_0, N0)
         cards_difficulte_1 = random.sample(cards_difficulte_1, N1)
         cards_difficulte_2 = random.sample(cards_difficulte_2, N2)
-
+        
         self.cards = cards_difficulte_0 + cards_difficulte_1 + cards_difficulte_2
         
     def shuffle(self):
@@ -293,11 +300,16 @@ class FlashcardsApp:
             self.speaker_button.pack(pady=15, ipadx=10, ipady=10)
 
     def speak_current_answer(self):
+        
+        
+        
         if self.current_card:
             if(self.current_card.is_swapped):
-                speak(self.current_card.answer,lang=self.flashcards.langue_face)
+                thread = threading.Thread(target=speak, args=(self.current_card.answer,self.flashcards.langue_face))
             else:
-                speak(self.current_card.question,lang=self.flashcards.langue_pile)
+                thread = threading.Thread(target=speak, args=(self.current_card.question,self.flashcards.langue_pile))
+        
+        thread.start()
         
     def update_timer(self):
         elapsed_time = int(time.time() - self.start_time)
@@ -322,7 +334,11 @@ class FlashcardsApp:
         for card in self.flashcards.finished_cards:
             df.loc[card.ID,"Difficulté"] = card.difficulty
             
-        df.to_csv(file_path_csv, index=False, sep=";")
+        f = open(file_path_csv, 'w')
+        f.write("#langue_pile=\"" + self.flashcards.langue_pile + "\"\n")
+        f.write("#langue_face=\"" + self.flashcards.langue_face + "\"\n")
+        df.to_csv(f, index=False, sep=";")
+        f.close()
 
 
             
@@ -354,7 +370,7 @@ def read_flashcards_from_csv(file_path_csv, taille_jeu, prop_easy, prop_medium, 
         #On selectionne le subset : par exemple les cartes de 0 à 100
         if( subset_start != None and subset_stop != None):
             if(index>= subset_start and index< subset_stop):
-                flashcards.add_card(index, row["Pile"], row["Face"], row["Difficulté"])
+                flashcards.add_card(index, row["Pile"], row["Face"], int(row["Difficulté"]))
         else:
             flashcards.add_card(index, row["Pile"], row["Face"], row["Difficulté"])
             
@@ -442,8 +458,8 @@ if __name__ == "__main__":
     parser.add_argument('--fp', default = "dico/test.csv", metavar='',help='path to dico csv')
     parser.add_argument('--swap', default = 0, type=int, help="swap ou pas les questions")
     parser.add_argument('--nb_cartes', default=20, type=int, help="nb de cartes")
-    parser.add_argument('--subset_start', default=0, type=int, help="debut du subet")
-    parser.add_argument('--subset_stop', default=20, type=int, help="fin du subset")
+    parser.add_argument('--subset_start', default=None, type=int, help="debut du subet")
+    parser.add_argument('--subset_stop', default=None, type=int, help="fin du subset")
     parser.add_argument('--prop_easy',  default = 0.1, type=float, help = "proportion de cartes faciles")
     parser.add_argument('--prop_medium',  default = 0.1, type=float, help = "proportion de cartes faciles")
     parser.add_argument('--prop_hard',  default = 0.8, type=float, help = "proportion de cartes faciles")
@@ -464,3 +480,6 @@ if __name__ == "__main__":
 
     
     main(args.fp, swap=args.swap, nb_cartes=args.nb_cartes, subset_start=args.subset_start, subset_stop=args.subset_stop, prop_easy = args.prop_easy, prop_medium = args.prop_medium, prop_hard = args.prop_hard)
+
+
+#python carte_flash.py --fp dico/dico_allemand.csv --swap=0 --nb_cartes=10 --subset_start=0 --subset_stop=20
