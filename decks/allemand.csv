@@ -1,0 +1,764 @@
+#langue_pile="de"
+#langue_face="fr"
+Pile;Face;Difficulté
+achtzig;quatre-vingts;0
+abbiegen;tourner;1
+aber;mais;0
+acht;huit;1
+achtzehn, neunzehn;dix-huit, dix-neuf;0
+alles;tout;1
+Alles klar?;Tout va bien ?;0
+altmodisch;ringard(e);0
+arbeiten;travailler;2
+arbeitslos;sans emploi;0
+Auf Wiedersehen!;Au revoir !;0
+bestellen;commander;1
+besuchen;visiter/rendre visite;0
+bis;jusqu'à / vers;0
+Bis bald!;À bientôt !;1
+Bitte;S’il te plaît/S’il vous plaît;0
+das Badezimmer;la salle de bains;0
+das Bier;la bière;0
+das Brot;le pain;0
+das Café;le café;0
+das da / das hier;celui-là (celle-là)/celui-ci (celle-ci);2
+das Einfamilienhaus;la maison;0
+das Ei / die Eier;l’œuf/les œufs;2
+das Fischgeschäft;la poissonnerie;1
+das Fleisch;la viande;0
+das Gemüse;les légumes;0
+das Glas;le verre;0
+das Hauptgericht;le plat principal;2
+das Haus;la maison;2
+das Kilo;le kilo;0
+das Knäckebrot;le pain croquant suédois;0
+das Krankenhaus;l'hôpital;0
+"Das macht 3,20 Euro; bitte.";"Cela fait 3,20 euros; s’il vous plaît.";1
+das Museum;le musée;0
+das Müsli;les céréales;0
+das Obst;le fruit;0
+das Restaurant;le restaurant;1
+das Salz;le sel;1
+das Schlafzimmer;la chambre;1
+das Taxi;le taxi;1
+das Wasser;l'eau;0
+das Wohnzimmer;le salon;0
+das Zimmer;la pièce;0
+das Öl;l'huile;1
+dein Bruder;ton frère;1
+deine Schwester;ta sœur;0
+der Aufschnitt;le buffet froid;1
+der Bahnhof;la gare;0
+der Balkon;le balcon;1
+der Barkeeper / die Barkeeperin;le barman/la barmaid;1
+der Bruder / die Schwester;le frère/la sœur;0
+der Bus;le bus;0
+der Cousin;le cousin;1
+der Erzieher / die Erzieherin;l’enseignant/l’enseignante en maternelle;0
+der Fisch;le poisson;0
+der Freund;"l’ami; le petit ami";1
+der Garten;le jardin;1
+der Großvater / die Großmutter;le grand-père/la grand-mère;0
+"der Hamster; die Hamster";"le hamster; les hamsters";1
+"der Hund; die Hunde";"le chien; les chiens";0
+der Informatiker / die Informatikerin;l’informaticien/l’informaticienne;0
+der Ingenieur / die Ingenieurin;l’ingénieur/l’ingénieure;0
+der Job;l’emploi;0
+der Kaffee;le café;0
+der Kaffeeklatsch;une discussion informelle autour d’un café;0
+der Kellner / die Kellnerin;le serveur/la serveuse;1
+der Kopf;la tête;1
+der Krankenpfleger / die Krankenpflegerin;l’infirmier/l’infirmière;1
+der Käse;le fromage;0
+der Lehrer / die Lehrerin;l’enseignant/l’enseignante;0
+der Mitbewohner / die Mitbewohnerin;Le/la colocataire;2
+der Nachbar / die Nachbarin;le voisin / la voisine;0
+der Nachtisch;le dessert;1
+der Obst- und Gemüseladen;le magasin de fruits et légumes;0
+der Onkel;l’oncle;0
+der Psychologe / die Psychologin;le psychologue/la psychologue;1
+der Reis;le riz;1
+der Saft;le jus de fruits;0
+der Supermarkt;le supermarché;0
+der Tisch;la table;1
+der Vater;le père;0
+der Vater / die Mutter;le père/la mère;0
+der Verkäufer / die Verkäuferin;le vendeur/la vendeuse;1
+der Vermieter / die Vermieterin;le propriétaire / la propriétaire;0
+"der Vogel; die Vögel";"l’oiseau; les oiseaux";0
+der Wein;le vin;0
+der Zucker;le sucre;0
+die Adresse;l'adresse;0
+die Apfelschorle;le spritzer à la pomme (jus de pomme et eau gazeuse);0
+die Apotheke;la pharmacie;1
+die Arbeit;le travail/l’emploi;1
+die Bahn;le train;1
+die Bank;la banque;1
+die Bar;le bar;1
+die Butter;le beurre;0
+die Bäckerei;la boulangerie;0
+die Cousine;la cousine;0
+die Disco;la discothèque;1
+die Dose;"la canette; la boîte";0
+die Eltern;les parents;0
+die Enkelkinder;les petits-enfants;1
+die Fahrkarte;le billet;1
+die Familie;la famille;1
+die Flasche;la bouteille;1
+die Fleischerei;la boucherie;1
+die Fleischerei / die Metzgerei;la boucherie;1
+die Freundin;"l’amie; la petite amie";1
+die Geschwister (Plural);les frères et sœurs;1
+die Großeltern;les grands-parents;0
+die Haltestelle;l'arrêt;0
+die Hausnummer;le numéro de la maison;1
+die Katze;le chat;1
+"die Katze; der Kater";"la chatte; le chat";1
+die Kinder;les enfants;0
+die Küche;la cuisine;1
+die Miete;le loyer;0
+die Milch;le lait;0
+die Milchprodukte;les produits laitiers;0
+die Nudeln;les pâtes;0
+die Post;la poste;0
+die Postleitzahl;le code postal;1
+die Rechnung;la note;1
+die S-Bahn;le métro aérien;0
+die Speisekarte;la carte;0
+die Stadt;la ville;1
+die Straße;la rue;1
+die Straßenbahn;le tramway;1
+die Tante;la tante;0
+die Terrasse;la terrasse;0
+die Tochter;la fille;0
+die U-Bahn;le métro;1
+die Vorspeise;les entrées;0
+die Wohngemeinschaft / WG;la colocation;1
+die Wohnung;l'appartement;1
+die Wurst;la charcuterie;0
+dort;là-bas;0
+drei;trois;0
+dreizehn, vierzehn, fünfzehn;treize, quatorze, quinze;0
+dreißig;trente;1
+du bist;tu es;1
+du hast;tu as;1
+durch;par/à travers;0
+ein bisschen;un petit peu;1
+Ein Stück Kuchen, bitte.;Une part de gâteau, s’il vous plaît.;1
+Einen Kaffee, bitte.;Un café, s’il vous plaît.;0
+einhundert;cent;0
+eins;un;0
+elf;onze;0
+Entschuldigung!;Désolé! / Excusez-moi !;0
+er ist;il est;1
+Er liebt mich.;Il m’aime.;0
+Er liebt sie.;Il l’aime.;1
+Es geht nur bar.;Les paiements se font uniquement en espèces.;0
+Es gibt...;Il y a...;0
+es ist;il/elle est (neutre);0
+Es tut mir leid.;Je suis désolé./Je suis désolée.;1
+essen;manger;0
+Essen bestellen;commander un repas;0
+Essen gehen;manger à l’extérieur;1
+Essen machen;préparer à manger;1
+etwas;du/de la;1
+euer Onkel;votre oncle;1
+eure Tante;votre tante;1
+extrem;extrêmement;0
+fahren;conduire;0
+Frau;Madame;0
+Freut mich auch!;Enchanté aussi !;0
+Freut mich!;Enchanté/e !;0
+fünf;cinq;1
+fünfzig;cinquante;0
+für;pour;0
+gegen;contre;1
+Gehen wir...;Allons...;1
+genug;assez;1
+geradeaus;tout droit;1
+geschlossen;fermé;1
+gesund;en bonne santé;0
+groß;grand/grande;0
+gut drauf;de bonne humeur;1
+Gut, danke.;"Bien; merci.";0
+Guten Tag!;Bonjour (formel);0
+günstig;bon rapport qualité-prix;1
+Haben Sie ...?;Avez-vous... ?;0
+Hallo!;Salut !;0
+Hast du Durst?;As-tu soif ?;0
+Hast du Geschwister?;As-tu des frères et sœurs ?;1
+Hast du Hunger?;Tu as faim ?;0
+Haustiere;animaux de compagnie;0
+Herr;Monsieur;1
+hier;ici;0
+hip;branché;1
+hoch;haut / haute;0
+Ich;Je;0
+Ich arbeite bei...;Je travaille pour...;1
+ich bin;je suis;0
+Ich bin arbeitslos.;Je suis sans emploi.;0
+Ich bin Einzelkind.;Je suis fille unique.;0
+Ich brauche...;J’ai besoin de...;1
+Ich esse alles.;Je mange de tout.;0
+Ich esse gern Pizza.;J’aime manger des pizzas.;0
+Ich esse kein Fleisch.;Je ne mange pas de viande.;1
+Ich esse keine Milchprodukte.;Je ne consomme pas de produits laitiers.;1
+Ich gehe gern...;J’aime bien aller...;0
+Ich gehe lieber...;Je préfère aller...;0
+ich habe;J’ai;0
+Ich habe drei Brüder.;J’ai trois frères.;1
+Ich habe Durst.;J’ai soif.;1
+Ich habe eine Schwester.;J’ai une sœur.;0
+Ich habe einen Bruder.;J’ai un frère.;1
+Ich habe Hunger.;J’ai faim.;0
+Ich habe keine Geschwister.;Je n’ai pas de frères et sœurs.;1
+Ich habe Lust auf ...;J’ai envie de...;0
+Ich habe zwei Schwestern.;J’ai deux sœurs.;0
+Ich komme aus den USA.;Je viens des États-Unis.;0
+Ich komme aus der Türkei.;Je viens de Turquie.;0
+Ich komme aus Deutschland.;Je viens d'Allemagne.;1
+Ich liebe dich!;Je t’aime !;1
+Ich liebe Hunde.;J’adore les chiens.;0
+Ich mag Katzen.;J’aime les chats.;2
+Ich mag meinen Bruder nicht.;Je n’aime pas mon frère.;0
+Ich möchte...;"J’aimerais; je voudrais...";0
+Ich spreche Deutsch.;Je parle allemand.;0
+Ich spreche ein bisschen Deutsch.;Je parle un peu allemand.;0
+Ich spreche Spanisch.;Je parle espagnol.;0
+Ich suche Arbeit als...;Je cherche un emploi de...;0
+Ich wohne in Brasilien.;Je vis au Brésil.;0
+Ich wohne in England.;Je vis en Angleterre.;1
+Ich wohne in Spanien.;J’habite en Espagne.;0
+Ich wohne in...;J'habite à...;1
+Ihnen auch!;Vous aussi !;1
+ihr;vous (pluriel);1
+ihr habt;vous avez;0
+ihr seid;vous êtes (pluriel);1
+ihr studiert;vous (pluriel) étudiez;0
+ihr Vater;son père;1
+ihre Mutter;sa mère;0
+im Stress;stressé;1
+in der Nähe von;près de;0
+Ja;Oui;0
+Kann ich mit Karte zahlen?;Est-ce que je peux payer par carte ?;0
+kaufen;acheter;1
+Kein Problem.;Pas de problème.;1
+klein;petit/petite;0
+krank;malade;0
+kurz;petit / petite;0
+lang;long / longue;0
+laufen;marcher;0
+Leider nicht!;J’ai bien peur que non !;1
+lesen;lire;0
+lieber als;plutôt que;1
+Liebt ihr Katzen?;Adorez-vous les chats ?;0
+links;gauche;0
+Machen Sie 20 Euro.;Arrondissez à 20 euros.;0
+Magst du Kaffee?;Aimes-tu le café ?;1
+Mein Großvater ist langweilig.;Mon grand-père est ennuyeux.;0
+Mein Großvater ist lustig.;Mon grand-père est amusant.;1
+mein Vater;mon père;0
+Meine Kinder sind freundlich.;Mes enfants sont chaleureux.;0
+meine Mutter;ma mère;0
+Meine Tochter ist arrogant.;Ma fille est arrogante.;0
+Mir geht's gut.;Ça va bien.;1
+Mir geht’s nicht so gut.;Ça ne va pas très bien.;0
+Mir geht’s schlecht.;Ça va mal.;1
+Mir geht’s super!;Ça va super bien !;1
+Mit Milch und Zucker?;Avec du lait et du sucre ?;1
+mit Sprudel / ohne Sprudel;gazeuse/plate;1
+Moin (moin)!;Bonjour ! (Allemagne du nord);0
+Möchtest du auch...?;Voudrais-tu également... ?;0
+Möchtest du in ein Café gehen?;Voudrais-tu aller dans un café ?;0
+mögen;aimer/souhaiter;1
+müde;fatiguée;0
+nah;près / proche;0
+Nein;Non;1
+"Nein; danke.";Non merci.;0
+neun;neuf;0
+neunzig;quatre-vingt-dix;0
+nichts;ne ... rien;0
+niedrig;bas / basse;0
+;zéro;1
+Oh nein!;Oh non !;0
+ohne;sans;1
+pflegen;soigner;1
+Prost!;Santé !;0
+rechts;droite;1
+rechts / links;droite / gauche;1
+relativ;plutôt;0
+reservieren;réserver;0
+schmal;étroit;1
+Schönen Tag!;Bonne journée !;1
+Schönes Wochenende!;Bon week-end!;1
+sechs;six;1
+"sechzehn; siebzehn";"seize; dix-sept";0
+sechzig;soixante;0
+sehr;très;1
+sein Bruder;son frère;0
+seine Schwester;sa sœur;1
+servieren;servir;0
+Servus!;Bonjour !/Au revoir ! (Autriche et Allemagne du sud);1
+sie;ils/elles;0
+sie haben;ils ont;0
+sie ist;elle est;1
+Sie liebt ihn.;Elle l’aime.;2
+Sie mögen Bier.;Ils aiment la bière.;1
+sie sind;ils/elles sont;0
+sie studieren;ils/elles étudient;1
+sieben;sept;0
+siebzig;soixante-dix;1
+sitzen;s'asseoir;0
+Sonst noch etwas?;Autre chose ?;0
+Sprichst du Englisch?;Tu parles anglais ?;1
+Stimmt so.;Gardez la monnaie.;0
+studieren;étudier (à l’université);1
+suchen;chercher;0
+teuer;cher;0
+trinken;boire;0
+Tschüss!;Au revoir !;0
+um;à / vers;1
+und;et;0
+unser Opa;notre grand-père;0
+unsere Oma;notre grand-mère;1
+unterrichten;enseigner;0
+verkaufen;vendre;0
+viel;beaucoup;0
+vier;quatre;0
+vierzig;quarante;1
+vor / hinter;devant / derrière;0
+Was bist du von Beruf?;Que fais-tu dans la vie ?;0
+Was darf es sein?;Qu’est-ce que je peux vous servir ?;0
+Was isst du gerne?;Qu’aimes-tu manger ?;0
+Was isst du?;Que manges-tu ?;0
+Was ist das?;Qu’est-ce que cela ?;0
+Was macht das?;Combien est-ce ?;0
+Was sind Sie von Beruf?;Que faites-vous dans la vie ? (formel);0
+weit;loin;1
+weit weg von;loin de;1
+Weißwurst;saucisse blanche;0
+Welche Sprachen sprichst du?;Quelles langues parles-tu ?;1
+wenig;un peu;0
+wenige;peu;1
+Wie geht’s?;Comment ça va ?;0
+Wie heißen Sie?;Comment vous appelez-vous ? (formel);0
+Wie heißt das auf Deutsch?;Comment est-ce que ça s’appelle en allemand ?;1
+Wie heißt du?;Comment t’appelles-tu ?;1
+Wie viel kostet das?;Combien cela coûte-t-il ?;1
+Wie viel kostet ein Kaffee?;Combien ça coute pour un café ?;0
+Wie viel kostet eine Apfelschorle?;Combien ça coûte pour une Apfelschorle ?;1
+wir;nous;0
+wir haben;nous avons;0
+Wir lieben Hunde.;Nous adorons les chiens.;0
+Wir mögen Hunde.;Nous aimons les chiens.;1
+wir sind;nous sommes;0
+Wo finde ich ...?;Où puis-je trouver... ?;0
+Wo ist ... ?;Où se trouve ... ?;0
+Wo ist …?;Où est... ?;0
+Wo wohnen Sie?;Où habitez-vous ? (formel);1
+Wo wohnst du?;Où habites-tu?;0
+Woher kommen Sie?;D’où venez-vous ? (formel);1
+Woher kommst du?;D’où viens-tu ?;0
+wohnen;vivre / habiter;0
+wollen;vouloir;0
+Zahlen, bitte!;L’addition s’il vous plaît !;0
+zehn;dix;1
+Zum Essen?;Que voulez-vous manger ?;1
+Zum Trinken?;Que voulez-vous boire ?;0
+Zum Wohl!;Santé !;1
+zwanzig;vingt;0
+zwei;deux;0
+zwölf;douze;1
+öffnen;ouvrir;1
+überqueren;traverser;1
+abendessen;dîner;1
+"achtzig; neunzig; einhundert";"quatre-vingt; quatre-vingt-dix; cent";1
+aufstehen;se lever;1
+bei;à;1
+blaue Augen;yeux bleus;0
+blond;blond / blonde;0
+braune Augen;les yeux marrons;1
+das Klavier;le piano;0
+das Saxofon;le saxophone;1
+das Schlagzeug;la batterie;1
+das Wochenende;le week-end;1
+der Tag;le jour;1
+die Flöte;la flûte;1
+die Freizeit;le temps libre;0
+die Geige;le violon;0
+die Gitarre;la guitare;1
+die Trompete;la trompette;0
+die Woche;la semaine;0
+"dreißig; vierzig; fünfzig";"trente; quarante; cinquante";0
+duschen;prendre une douche;1
+dürfen;avoir le droit;0
+ein Instrument spielen;jouer d'un instrument;1
+einkaufen;faire les courses;0
+"elf; zwölf";"onze; douze";0
+entspannen;se détendre;1
+Es ist ... Uhr.;Il est .... heures.;1
+Fahrrad fahren;faire du vélo;0
+fernsehen;regarder la télévision;1
+"Freitag; Samstag; Sonntag";"vendredi; samedi; dimanche";0
+Freunde treffen;retrouver des amis;0
+frühstücken;prendre son petit-déjeuner;1
+Fußball spielen;jouer au football;0
+gegenüber;en face de;0
+halb;et demi;0
+ins Bett gehen;se coucher;0
+ins Fitnessstudio gehen;aller à la salle de sport;1
+kurze Haare;cheveux courts;0
+können;être capable de;0
+lange Haare;les cheveux longs;1
+mit;avec;1
+Mittwoch, Donnerstag;mercredi, jeudi;1
+"Montag; Dienstag";"lundi; mardi";1
+müssen;"devoir; avoir besoin de";1
+schwarze Haare;des cheveux noirs;1
+schwimmen;nager;0
+sechzehn, siebzehn, achtzehn, neunzehn;seize, dix-sept, dix-huit, dix-neuf;0
+"sechzig; siebzig";"soixante; soixante-dix";0
+segeln;faire de la voile;0
+sich anziehen;s'habiller;1
+sich beeilen;se dépêcher;1
+sich die Haare bürsten;se brosser les cheveux;1
+sich die Zähne putzen;se laver les dents;1
+sich rasieren;se raser;1
+sich schminken;se maquiller;1
+singen;chanter;1
+Ski fahren;ski;0
+Sport treiben;faire du sport;0
+tanzen;danser;1
+verschlafen;se réveiller en retard;1
+Viertel nach;un quart;0
+Viertel vor;moins le quart;1
+Volleyball spielen;jouer au volley;0
+vorlesen;lire à voix haute;1
+wandern;faire une randonnée;0
+Wie siehst du aus?;À quoi ressembles-tu ?;0
+Wie spät ist es?;Quelle heure est-il ?;0
+zu;à/pour;1
+zur Arbeit gehen;aller travailler;1
+"zwanzig, einundzwanzig, zweiundzwanzig;...";vingt, vingt-et-un, vingt-deux...;0
+zweihundert, dreihundert, vierhundert...;deux cents, trois cents, quatre cents...;0
+Januar; Janvier;0
+Februar; Février;1
+März; Mars;1
+April; Avril;0
+Mai; Mai;0
+Juni;Juin;1
+Juli;Juillet;1
+August;Août;0
+September;Septembre;0
+Oktober;Octobre;0
+November;Novembre;0
+Dezember;Décembre;0
+Die Jahreszeit;La saison;0
+der Frühling; Le printemps;0
+derSommer; L'été;0
+der Herbst; L'automne;1
+der Winter; L'hiver;0
+nervig; énervant;0
+unsympatisch; désagréable;1
+arrogant; arrogant;1
+blöd; bête;1
+lustig; amusant;0
+Wie siehst du aus?;A quoi ressembles-tu ?;0
+sich schminken;se maquiller;1
+sich die Haare bürsten; se brosser les cheveux;1
+Liebe Oma - Lieber Opa;Chère Mamie cher papy;1
+Mit freundlichen Grüßen; Avec nos salutations distinguées;1
+Sehr geehrte Frau Müller; Chère Madame Müller;1
+Wie komme ich nach Berlin bitte?; Comment puis-je aller à Berlin s’il vous plaît ?;1
+Puis-je avoir le menu ?;Kann ich das Menü sehen?;0
+Ein Tisch für zwei Personen;Une table pour 2 personnes;1
+J’ai une réservation pour… :;Ich habe eine Buchung auf den Namen;1
+Kann ich ein Bier haben bitte?;Puis-je avoir une bière s’il vous plaît ?;1
+Erste Straße rechts;Première rue à droite;0
+Zweite Straße links;Deuxième rue à gauche;1
+Gut gemacht!;Bravo !;1
+Es war lecker!;C’était délicieux !;1
+Vielen Dank; Merci beaucoup;0
+Zuerst;D’abord;1
+Dann;Ensuite;1
+Endlich;Enfin;1
+Ebenfalls / auch;Egalement;1
+Aber;Mais;1
+Mit;Avec;0
+Trotzdem;Malgré tout;1
+Wirklich;Vraiment;0
+Zum Teil;En partie;0
+Nach;Vers / à destination de;1
+Viel Glück!; Bonne chance;1
+Wann; Quand;0
+Warum?; Pourquoi;1
+Wer?; Qui;0
+Wo sind die Toiletten?; Où sont les toilettes?;1
+Ich weiß nicht;Je ne sais pas;1
+Ich verstehe nicht;Je ne comprends pas;1
+Guten Abend;Bonsoir;0
+Wie viel Uhr ist es?;Quelle heure est-il ?;1
+Heiß;Chaud;1
+Kalt;Froid;1
+die E-mail;l'email;1
+sollen;être censé;1
+Es regnet;Il pleut;0
+der Geburtsort;Le lieu de naissance;0
+neblig;nuageux;1
+der Reisepass;le passeport;1
+Wie ist das Wetter;Quel temps fait-il ?;0
+die Telefonnummer;Le numéro de téléphone;0
+stürmisch;orageux;0
+Können Sie das aufschreiben bitte; Pouvez-vous l'écrire svp ?;1
+Entschuldigung, noch einmal bitte;Excusez-moi, encore une fois s'il vous plaît;1
+Entschuldigung, was bedeutet ...?; Pardon, que signifie... ?;1
+das Flugzeug; l'avion;1
+der Flug(die Flügen);vol d'avion (vols d'avion);1
+die Ferien;les vacances;2
+das Schnitzel;Une escalope;1
+Hoffentlich!;J'espère !;0
+heute;aujourd'hui;1
+morgen;demain;1
+gestern;hier;0
+schade;dommage;0
+Flugsteig;la porte d'embarquement;0
+Geburstagsgeschenk;cadeau d'anniversaire;1
+die Reise;le voyage;1
+wieder;bientôt;0
+Wann kommt dein Zug an?;Quand arrive ton train ?;1
+Möbel;Meubles;0
+Erdgeschoss;RDC;0
+Anfängerstufe;Niveau débutant;1
+Mittelstufe;Niveau intermédiaire;0
+Herzlichen Glückwunsch!;Félicitations;1
+der,die,das,die;Articles nominatifs définis;1
+den,die,das,die;Articles accusatifs définis;1
+Ein,eine,ein,x;Articles nominatifs indéfinis;1
+Einen,eine,ein,x;Articles accusatifs indéfinis;1
+Mein (Ich),dein (Du),sein (Er),ihr (Sie),sein (Es);Articles possessifs singuliers;1
+Unser (Wir),euer (Ihr),ihr (Sie);Articles possessifs pluriel;1
+der Vorname;le prénom;1
+der Nachname;le nom de famille;1
+Wie ist dein Name?; Quel est ton nom ?;1
+Wie ist ihr Name?; Quel est votre nom ?;1
+Wer sind Sie?;Qui êtes-vous ?;1
+Wer bist du?;Qui es-tu ?;1
+Gerne;Volontiers;1
+Gern geschehen;Avec plaisir;1
+Das macht nichts;Ca ne fait rien.;0
+Das ist toll!;C'est super!2;
+Achtung !;Attention !;1
+Auf keinen Fall;En aucun cas;1
+Bis morgen;A demain;1
+Wie geht es dir?;Comment vas-tu ?;1
+Gestresst;Stressé;1
+Sauer;Fâché;1
+Traurig;Triste;0
+Ich brauche Hilfe;J'ai besoin d'aide;1
+Russland;Russie;1
+Ich komme aus der Nähe von Berlin;Je viens des environs de Berlin.;1
+das Land;Le pays;0
+Asien;L'Asie;1
+Europa;Europe;1
+Afrika;L'Afrique;1
+Nordamerika;L'Amérique du Nord;0
+Südamerika;L'Amérique du Sud;0
+Australien;L'Australie;1
+Das liegt in Ostdeutschland;C'est dans l'est de l'Allemagne;1
+Wir wohnen in einem Dorf;Nous habitons dans un village;1
+Ich wohne auf dem Land;J'habite à la campagne;1
+das Bundesland;L'état fédéré;0
+Ich wohne bei Freunden;J'habite chez des amis;1
+Ich habe zwei Söhne;J'ai deux fils;0
+die Ehefrau;L'épouse;1
+der Ehemann;Le mari;1
+Ich bin verheiratet;Je suis marié;1
+Ich bin ledig;Je suis célibataire;1
+die Unterschrift;La signature;1
+das Formular;le formulaire;1
+die Dokumente;Le document;1
+Entschuldigung, kannst du mir helfen?;Pardon, peux-tu m'aider ?;1
+Ja natürlich;Oui bien sûr;0
+Ich habe eine Frage;J'ai une question;1
+Wissen Sie, wo das ist?; Savez-vous où c'est ?;1
+Wie bitte?; Comment ?;1
+Können Sie das wiederholen bitte?;Pouvez-vous répéter ?;1
+Können Sie bitte langsamer sprechen?; Pouvez-vous parler plus lentement svp ?;1
+die deutsche Sprache;La langue allemande;1
+die Grammatik;La grammaire;1
+die Vokabeln;Le vocabulaire;1
+der Deutschkurs;Le cours d'allemand;1
+Ich möchte mich für einen Kurs anmelden; J'aimerais m'inscrire à un cours d'allemand;1
+Ich möchte Deutsch lernen;j'aimerais apprendre l'allemand;1
+die Niveaustufe;le niveau;1
+die Prüfung;L'examen;1
+die Fremdsprache;La langue étrangère;1
+der Beruf;La profession;0
+Was machst du beruflich?; Que fais-tu professionnellement?;1
+Ich mache eine Ausbildung; Je fais une formation;1
+anrufen;appeler (au tel);2
+das Handy;le téléphone;2
+der Monat;le mois;1
+im Januar;en janvier;2
+am Montag;le lundi;2
+diese Woche;cette semaine;2
+nächste Woche;la semaine prochaine;1
+das Wochenende;le weekend;1
+Es ist zwei/fürzehn Uhr;Il est 14h;1
+Es ist Viertel vor zwölf;Il est midi moins le quart;1
+Wir treffen uns um 15 Uhr;On se retrouve à 15h;2
+l'heure;die Stunde;2
+Das dauert eine halbe Stunde;Ca prend un demi heure;2
+die Minute(n);la/les minute(s);1
+Das geht von zwei bis drei Uhr;C'est de 2h à 3h;2
+morgens;(in the morning) le matin;0
+Ich stehe um acht Uhr auf;Je me lève à 8h;2
+täglich;tous les jours;1
+Ich wasche mir die Haare;Je me lave les cheveux;2
+Ich ziehe mich an;Je m'habille;2
+Um neun Uhr fahre ich zur Arbeit;Je vais au travail à 9h;1
+mittags;à midi;
+die Mittagspause;pause du midi;2
+Um eins esse ich zu Mittag;Je mange à 1h;2
+abends;le soir;2
+Ich mache um 18h30 Uhr Feierabend;Je finis le travail à 18h30;2
+Ich gehe nach Hause;Je rentre à la maison;2
+Nachts;La nuit;1
+Ich gehe um 22 Uhr ins Bett;Je vais me couhcer à 22h;1
+der Termin;le rdv;1
+Ich hatte einen Termin;J'avais un rdv;1
+Ich muss den Termin leider absagen;Je dois malheureusement annuler mon rdv;2
+Ich kann leider nicht kommen;Malheureusement je ne peux pas venir;1
+Ich habe einen wichtigen Termin;J'ai un rdv important;1
+Ich haben den Bus verpasst;J'ai loupé le bus;2
+Ich komme etwas später;Je viens un peu en retard;1
+Können wir das verschieben;Est-ce qu'on peut remettre ça à plus tard ?;2
+der Nahverkehr;les transports publics;2
+Ich fahre mit dem Bus;Je prends le bus;1
+Ich nehme die U-Bahn;Je prends le métro;1
+Sie müssen hier einsteigen;Vous devez monter ici (dans le métro);2
+Sie müssen hier aussteigen;Vous devez descendre ici;2
+Sie müssen hier umsteigen;Vous devez faire un changement ici;1
+Ich fahre mit dem Fahrrad;Je fais du vélo;2
+das Auto;La voiture;1
+Ich möchte verreisen;Je veux voyager;2
+Wohin fährst du?;Où allez vous?;2
+Fährt der Zug nach Berlin?;Est-ce que ce train va à Berlin ?;2
+Wann fährt der Zug?;Quand est-ce que ce train part ?;1
+Der Zug hat Verspätung;Le train est retardé;2
+Die Bahn fährt nach Postdam;Le train va à Postdam;2
+die Fähre;Le ferry;2
+einfache Facht;aller (ticket);2
+hin und zurück;aller retour;2
+Ich möchte einen Sitzplatz reservieren bitte;J'aimerais réserver une place;0
+das abteil;Le compartiment (de train);2
+für die erste/zweite Klasse;pour la première/seconde classe;1
+am Fenster;côté fenêtre;2
+am Gang;côté couloir;2
+das Zentrum;le centre ville;1
+der Marktplatz;la place du marché;2
+das Rathaus;l'hôtel de ville;1
+die Schule;l'école;2
+das Kino;le ciné;1
+Gibt est hier eine Bank?;Est-ce qu'il y a une banque ici?;2
+der Geldautomat;le distributeur de billets;2
+die Bushaltestelle;L'arrêt de bus;0
+die öffentliche Toilette;L'arrêt de bus;2
+Entschuldigung, wie komme ich zum Hauptbahnof?; Excusez-moi, comment est-ce que je vais à la station principale ?;2
+Gehen Sie geradeaus;Allez tout droit;1
+Biegen Sie rechts ab;Tournez à droite;
+an der Ampel;Au feu (de circulation);1
+an der Kreuzung;au croisement;1
+zu Fuß;à pied;1
+die Farbe;la couleur;2
+weiß;blanc;1
+gelb;jaune;2
+orange;orange;1
+rot;rouge;2
+rosa;rose;1
+lila;violet;2
+blau;bleu;1
+hellblau;bleu clair;2
+dunkelblau;bleu foncé;1
+grün;vert;1
+braun;marron;1
+grau;gris;1
+schwarz;noir;1
+bunt;coloré;2
+Das Essen ist fertig;Le repas est prêt;1
+Guten Appetit;Bon appétit;1
+das Mittagessen;Le déjeuner;2
+Wir essen um 20 Uhr zu Abend;Nous dînons à 20h;2
+Ich bin satt;Je n'ai plus faim;2
+Wo ist die Kasse bitte?;Où se trouve la caisse (de supermarché) svp ?;1
+Zahlen Sie bar?;Payez vous en liquide ?;1
+Das ist ein Sonderangebot;C'est une offre spéciale;2
+die Seife;savon;1
+Das ist zu teuer;C'est trop cher;1
+Möchten Sie eine Tüte?;Voulez-vous un sac ?;2
+der Apfel;La pomme;1
+die Banane;La banane;1
+die Kirsche;La cerise;1
+die Pflaume;La prune;1
+die Erbeere;La fraise;2
+die Weintraube;Le raisin;1
+die Himbeere;La framboise;2
+die Zitrone;Le citron;2
+der Obstsalat;La salade de fruit;2
+die Gurke;Le concombre;1
+Ich möchte zwei Gurken kaufen;Je voudrais acheter deux concombres;2
+die Tomate;La tomate;1
+die Zwiebel;L'oignon;2
+die Paprika;Le poivron;2
+die Mörhe;La carotte;2
+der Kohl;Le chou;2
+der Brokkoli;Le brocolis;2
+der Salat;La salade;1
+der Spinat;L'épinard;2
+das Radieschen;Le radis;2
+die Aubergine;L'aubergine;0
+die Kartoffel;La pomme de terre;1
+Was möchtest du trinken?;Que veux tu boire ?;1
+der Tee;Le thé;1
+stilles Wasser;L'eau plate;2
+der Sprudel;L'eau gazeuse;2
+das Lieblingsessen;Le plat préféré;2
+Ich bin Vegetarier;Je suis végétarien;2
+Nein, ich trinke keinen Alkohol;Non, je ne bois pas d'alcool;2
+Das ist süß;C'est sucré;1
+Das ist salzig;C'est salé;1
+Das ist sauer;C'est acide;1
+Schmekt es dir?;Tu trouves ça bon ?;2
+Nein, das schmeckt mir nicht;Non, ce n'est pas bon;2
+Das schmeckt bitter;C'est amer;1
+die Bluse;Le chemisier;1
+das Kleid;La robe;2
+der Rock;La jupe;2
+das T-shirt;Le tshirt;1
+das Hemd;La chemise;2
+die Hose;Le pantalon;1
+der Gürtel;La ceinture;2
+der Pullover;Le pullover;2
+die Jacke;La veste;2
+der Mantel;Le manteau;2
+der Hut;Le chapeau;1
+die Mütze;Le bonnet;2
+das Kopftuch;Le voile;1
+der Schal;L'écharpe;2
+die Schuhe;Les chaussures;2
+die Stiefel;Les bottes;2
+die Hausschuhe;Les pantoufles;2
+die Socken;Les chaussettes;1
+die Strumpfhose;Les collants;1
+die Unterhose;le calecon/la culotte;2
+der BH (Bi-ah);le soutif;1
+das Unterhemd;Le maillot de corps;1
+der Schlafanzug;Le pyjama;2
+Eine Nummer größer bitte;Une pointure au dessus svp;2
+Eine Nummer kleiner bitte;Une pointure en dessous svp;1
+Das passt mir nicht;Ca ne me va pas;1
+Das ist zu klein;C'est trop petit;2
+Das steht dir gut;Ca te va bien;0
+Mitternacht;Minuit;2
+Pile;Face;Difficulté
+achtzig;quatre-vingts;1

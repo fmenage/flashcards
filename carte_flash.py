@@ -46,7 +46,6 @@ def speak(text, lang="fr"):
         
     #Sinon on passe par un moteur interne pyttsx3
     else:
-        print("pyttsx3")
         engine = pyttsx3.init()
         # Liste les voix disponibles
         voices = engine.getProperty('voices')
@@ -455,7 +454,7 @@ def main(file_path_csv, swap=0, nb_cartes=20, subset_start=None, subset_stop=Non
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='Jeu de flashcards')
-    parser.add_argument('--fp', default = "dico/test.csv", metavar='',help='path to dico csv')
+    parser.add_argument('--fp', default = "decks/test.csv", metavar='',help='path to dico csv')
     parser.add_argument('--swap', default = 0, type=int, help="swap ou pas les questions")
     parser.add_argument('--nb_cartes', default=20, type=int, help="nb de cartes")
     parser.add_argument('--subset_start', default=None, type=int, help="debut du subet")

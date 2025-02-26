@@ -1,9 +1,9 @@
 Pile;Face;Difficulté
-Albanie;Tirana;0.0
-Allemagne;Berlin,2;
-Andorre;Andorre-la-Vieille;0.0
-Autriche;Vienne;0.0
-Belgique;Bruxelles;0.0
+Albanie;Tirana;2.0
+Allemagne;Berlin;2.0
+Andorre;Andorre-la-Vieille;2.0
+Autriche;Vienne;1.0
+Belgique;Bruxelles;2.0
 Biélorussie;Minsk;0.0
 Bosnie-Herzégovine;Sarajevo;0.0
 Bulgarie;Sofia;0.0
@@ -14,19 +14,19 @@ Espagne;Madrid;0.0
 Estonie;Tallinn;0.0
 Finlande;Helsinki;0.0
 France;Paris;0.0
-Grèce;Athènes;0.0
-Hongrie;Budapest;0.0
-Irlande;Dublin;0.0
-Islande;Reykjavik;0.0
-Italie;Rome;0.0
+Grèce;Athènes;1.0
+Hongrie;Budapest;1.0
+Irlande;Dublin;1.0
+Islande;Reykjavik;1.0
+Italie;Rome;1.0
 Kosovo;Pristina;0.0
 Lettonie;Riga;0.0
 Liechtenstein;Vaduz;0.0
 Lituanie;Vilnius;0.0
 Luxembourg;Luxembourg;0.0
 Macédoine du Nord;Skopje;0.0
-Malte;La Valette;1.0
-Moldavie;Chisinau;1.0
+Malte;La Valette;0.0
+Moldavie;Chisinau;0.0
 Monaco;Monaco;0.0
 Monténégro;Podgorica;0.0
 Norvège;Oslo;0.0
